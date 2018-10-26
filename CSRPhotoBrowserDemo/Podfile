@@ -1,0 +1,9 @@
+project 'CSRPhotoBrowser.xcodeproj'
+platform :ios, '8.0'
+
+target 'CSRPhotoBrowser' do
+
+pod 'SDWebImage', '~> 4.4.2'
+pod 'ISActionSheet', '~> 0.3.0'
+
+end

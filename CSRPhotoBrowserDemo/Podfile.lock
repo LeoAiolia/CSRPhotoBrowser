@@ -1,0 +1,22 @@
+PODS:
+  - ISActionSheet (0.3.0)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+
+DEPENDENCIES:
+  - ISActionSheet (~> 0.3.0)
+  - SDWebImage (~> 4.4.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ISActionSheet
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  ISActionSheet: 957aa34cdd5fc2dbbca0416c946f24db4649b762
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+
+PODFILE CHECKSUM: 1741259ff974e20dffcde8f6cc828ab9a275b724
+
+COCOAPODS: 1.5.2

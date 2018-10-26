@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040D159426337480F657E4FB /* libPods-CSRPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7588A58950EEDC870885DE /* libPods-CSRPhotoBrowser.a */; };
+		A75664612183137700FAA96F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A75664602183137700FAA96F /* AppDelegate.m */; };
+		A75664642183137700FAA96F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75664632183137700FAA96F /* ViewController.m */; };
+		A75664672183137700FAA96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75664652183137700FAA96F /* Main.storyboard */; };
+		A75664692183137800FAA96F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A75664682183137800FAA96F /* Assets.xcassets */; };
+		A756646C2183137800FAA96F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A756646A2183137800FAA96F /* LaunchScreen.storyboard */; };
+		A756646F2183137800FAA96F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A756646E2183137800FAA96F /* main.m */; };
+		A756648E218314FB00FAA96F /* CSRPhotoBrowser.mm in Sources */ = {isa = PBXBuildFile; fileRef = A756648A218314FB00FAA96F /* CSRPhotoBrowser.mm */; };
+		A756648F218314FB00FAA96F /* CSRBrowserImageView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A756648B218314FB00FAA96F /* CSRBrowserImageView.mm */; };
+		A75664912183175E00FAA96F /* squareDefaultIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A75664902183175E00FAA96F /* squareDefaultIcon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F7588A58950EEDC870885DE /* libPods-CSRPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSRPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AEC8FA83E534994226C5AEC /* Pods-CSRPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSRPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSRPhotoBrowser/Pods-CSRPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
+		9A3B111B87FB0F6E35067FD2 /* Pods-CSRPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSRPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSRPhotoBrowser/Pods-CSRPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		A756645C2183137700FAA96F /* CSRPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSRPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A756645F2183137700FAA96F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A75664602183137700FAA96F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A75664622183137700FAA96F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A75664632183137700FAA96F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A75664662183137700FAA96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A75664682183137800FAA96F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A756646B2183137800FAA96F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A756646D2183137800FAA96F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A756646E2183137800FAA96F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A7566489218314FB00FAA96F /* CSRPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		A756648A218314FB00FAA96F /* CSRPhotoBrowser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CSRPhotoBrowser.mm; sourceTree = "<group>"; };
+		A756648B218314FB00FAA96F /* CSRBrowserImageView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CSRBrowserImageView.mm; sourceTree = "<group>"; };
+		A756648C218314FB00FAA96F /* CSRPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRPhotoBrowser.h; sourceTree = "<group>"; };
+		A756648D218314FB00FAA96F /* CSRBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSRBrowserImageView.h; sourceTree = "<group>"; };
+		A75664902183175E00FAA96F /* squareDefaultIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "squareDefaultIcon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A75664592183137700FAA96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040D159426337480F657E4FB /* libPods-CSRPhotoBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BDFFF43D8E150B67E567854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F7588A58950EEDC870885DE /* libPods-CSRPhotoBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A16BF29C94127C62AA83A2B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC8FA83E534994226C5AEC /* Pods-CSRPhotoBrowser.debug.xcconfig */,
+				9A3B111B87FB0F6E35067FD2 /* Pods-CSRPhotoBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A75664532183137700FAA96F = {
+			isa = PBXGroup;
+			children = (
+				A756645E2183137700FAA96F /* CSRPhotoBrowser */,
+				A756645D2183137700FAA96F /* Products */,
+				A16BF29C94127C62AA83A2B6 /* Pods */,
+				4BDFFF43D8E150B67E567854 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A756645D2183137700FAA96F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A756645C2183137700FAA96F /* CSRPhotoBrowser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A756645E2183137700FAA96F /* CSRPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				A75664902183175E00FAA96F /* squareDefaultIcon@2x.png */,
+				A7566488218314FB00FAA96F /* CSRPhotoBrowser */,
+				A756645F2183137700FAA96F /* AppDelegate.h */,
+				A75664602183137700FAA96F /* AppDelegate.m */,
+				A75664622183137700FAA96F /* ViewController.h */,
+				A75664632183137700FAA96F /* ViewController.m */,
+				A75664652183137700FAA96F /* Main.storyboard */,
+				A75664682183137800FAA96F /* Assets.xcassets */,
+				A756646A2183137800FAA96F /* LaunchScreen.storyboard */,
+				A756646D2183137800FAA96F /* Info.plist */,
+				A756646E2183137800FAA96F /* main.m */,
+			);
+			path = CSRPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		A7566488218314FB00FAA96F /* CSRPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				A7566489218314FB00FAA96F /* CSRPhotoBrowserConfig.h */,
+				A756648C218314FB00FAA96F /* CSRPhotoBrowser.h */,
+				A756648A218314FB00FAA96F /* CSRPhotoBrowser.mm */,
+				A756648D218314FB00FAA96F /* CSRBrowserImageView.h */,
+				A756648B218314FB00FAA96F /* CSRBrowserImageView.mm */,
+			);
+			name = CSRPhotoBrowser;
+			path = ../../CSRPhotoBrowser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A756645B2183137700FAA96F /* CSRPhotoBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A75664722183137800FAA96F /* Build configuration list for PBXNativeTarget "CSRPhotoBrowser" */;
+			buildPhases = (
+				39337782C22ABA4D3B3B056F /* [CP] Check Pods Manifest.lock */,
+				A75664582183137700FAA96F /* Sources */,
+				A75664592183137700FAA96F /* Frameworks */,
+				A756645A2183137700FAA96F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CSRPhotoBrowser;
+			productName = CSRPhotoBrowser;
+			productReference = A756645C2183137700FAA96F /* CSRPhotoBrowser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A75664542183137700FAA96F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = run;
+				TargetAttributes = {
+					A756645B2183137700FAA96F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = A75664572183137700FAA96F /* Build configuration list for PBXProject "CSRPhotoBrowser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A75664532183137700FAA96F;
+			productRefGroup = A756645D2183137700FAA96F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A756645B2183137700FAA96F /* CSRPhotoBrowser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A756645A2183137700FAA96F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75664912183175E00FAA96F /* squareDefaultIcon@2x.png in Resources */,
+				A756646C2183137800FAA96F /* LaunchScreen.storyboard in Resources */,
+				A75664692183137800FAA96F /* Assets.xcassets in Resources */,
+				A75664672183137700FAA96F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39337782C22ABA4D3B3B056F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CSRPhotoBrowser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A75664582183137700FAA96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A75664642183137700FAA96F /* ViewController.m in Sources */,
+				A756646F2183137800FAA96F /* main.m in Sources */,
+				A756648E218314FB00FAA96F /* CSRPhotoBrowser.mm in Sources */,
+				A75664612183137700FAA96F /* AppDelegate.m in Sources */,
+				A756648F218314FB00FAA96F /* CSRBrowserImageView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A75664652183137700FAA96F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A75664662183137700FAA96F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A756646A2183137800FAA96F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A756646B2183137800FAA96F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A75664702183137800FAA96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A75664712183137800FAA96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A75664732183137800FAA96F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AEC8FA83E534994226C5AEC /* Pods-CSRPhotoBrowser.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lei Zhang (HWL52V9V8N)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T4BY97AF75;
+				INFOPLIST_FILE = CSRPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CSRPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "com test profile";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A75664742183137800FAA96F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A3B111B87FB0F6E35067FD2 /* Pods-CSRPhotoBrowser.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Lei Zhang (HWL52V9V8N)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = T4BY97AF75;
+				INFOPLIST_FILE = CSRPhotoBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CSRPhotoBrowser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "com test profile";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A75664572183137700FAA96F /* Build configuration list for PBXProject "CSRPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75664702183137800FAA96F /* Debug */,
+				A75664712183137800FAA96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A75664722183137800FAA96F /* Build configuration list for PBXNativeTarget "CSRPhotoBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75664732183137800FAA96F /* Debug */,
+				A75664742183137800FAA96F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A75664542183137700FAA96F /* Project object */;
+}
