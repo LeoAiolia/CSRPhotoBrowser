@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		040D159426337480F657E4FB /* libPods-CSRPhotoBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F7588A58950EEDC870885DE /* libPods-CSRPhotoBrowser.a */; };
+		A70EF7AF21869EA800844029 /* CSRPhotoBrowser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A70EF7AE21869EA700844029 /* CSRPhotoBrowser.podspec */; };
 		A75664612183137700FAA96F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A75664602183137700FAA96F /* AppDelegate.m */; };
 		A75664642183137700FAA96F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75664632183137700FAA96F /* ViewController.m */; };
 		A75664672183137700FAA96F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A75664652183137700FAA96F /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		1F7588A58950EEDC870885DE /* libPods-CSRPhotoBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CSRPhotoBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEC8FA83E534994226C5AEC /* Pods-CSRPhotoBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSRPhotoBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CSRPhotoBrowser/Pods-CSRPhotoBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		9A3B111B87FB0F6E35067FD2 /* Pods-CSRPhotoBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CSRPhotoBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-CSRPhotoBrowser/Pods-CSRPhotoBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		A70EF7AE21869EA700844029 /* CSRPhotoBrowser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CSRPhotoBrowser.podspec; path = ../../CSRPhotoBrowser.podspec; sourceTree = "<group>"; };
 		A756645C2183137700FAA96F /* CSRPhotoBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSRPhotoBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A756645F2183137700FAA96F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A75664602183137700FAA96F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		A756645E2183137700FAA96F /* CSRPhotoBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				A70EF7AE21869EA700844029 /* CSRPhotoBrowser.podspec */,
 				A75664902183175E00FAA96F /* squareDefaultIcon@2x.png */,
 				A7566488218314FB00FAA96F /* CSRPhotoBrowser */,
 				A756645F2183137700FAA96F /* AppDelegate.h */,
@@ -177,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70EF7AF21869EA800844029 /* CSRPhotoBrowser.podspec in Resources */,
 				A75664912183175E00FAA96F /* squareDefaultIcon@2x.png in Resources */,
 				A756646C2183137800FAA96F /* LaunchScreen.storyboard in Resources */,
 				A75664692183137800FAA96F /* Assets.xcassets in Resources */,
